@@ -31,3 +31,13 @@ Type '!fragment <my_fragment> [<another_fragment> ...]' to insert one or more fr
 > hello
 Hello! How can I assist you today?
 ```
+
+```zsh
+➜  dev llm logs status
+Logging is ON for all prompts
+...
+```
+
+```zsh
+llm models
+```
