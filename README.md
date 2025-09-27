@@ -53,3 +53,15 @@ llm models default
 ```zsh
 llm models default o3-mini
 ```
+
+```zsh
+echo "hello" | llm
+```
+
+```zsh
+llm "explain" -a sample.jpg
+```
+
+```zsh
+cat sample.txt | llm -s "In summary"
+```
