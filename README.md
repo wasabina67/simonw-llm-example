@@ -2,7 +2,8 @@
 simonw llm example
 
 ## simonw/llm
-https://github.com/simonw/llm
+- https://github.com/simonw/llm
+- https://github.com/taketwo/llm-ollama
 
 ## Install
 
