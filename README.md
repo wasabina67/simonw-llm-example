@@ -41,3 +41,15 @@ Logging is ON for all prompts
 ```zsh
 llm models
 ```
+
+```zsh
+llm "hello" --model o3-mini
+```
+
+```zsh
+llm models default
+```
+
+```zsh
+llm models default o3-mini
+```
