@@ -64,5 +64,13 @@ llm "explain" -a sample.jpg
 ```
 
 ```zsh
+llm "explain, japanese" -a sample.jpg --model gpt-5
+これは、ビーグル犬を描いたベクターイラストです。
+- 三色（白・茶・黒）の毛並みで、垂れ耳が特徴。
+- 犬はお座りの姿勢で正面を見ており、下に楕円の影があります。
+- 背景は白のシンプルなデザインで、フラットな色面で表現されています。
+```
+
+```zsh
 cat sample.txt | llm -s "In summary"
 ```
