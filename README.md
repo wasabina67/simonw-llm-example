@@ -74,3 +74,8 @@ llm "explain, japanese" -a sample.jpg --model gpt-5
 ```zsh
 cat sample.txt | llm -s "In summary"
 ```
+
+```zsh
+cat sample.txt | llm -s "In summary, japanese" --model gpt-5
+中学最後の卒業式を、派手に咲き誇り派手に散る覚悟で迎える詩。三年間の思い出を糧に前へ進む決意と、「唯我独尊」「我最強一匹狼」といった揺るぎない自負と孤高の精神が貫かれている。
+```
